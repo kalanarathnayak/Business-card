@@ -7,9 +7,11 @@ import Appbar from "./Appbar";
 export default function Card() {
     return (
         <div className="card">
-            <Info />
-            <About />
-            <Interests />
+            <div className="card--body">
+                <Info />
+                <About />
+                <Interests />
+            </div>
             <Appbar />
         </div>
     );

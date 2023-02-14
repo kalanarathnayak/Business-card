@@ -29,10 +29,6 @@ a:active {
   min-height: 95vh;
 }
 
-.card--body {
-  background-color: #1A1B21;
-}
-
 .info {
   display: flex;
   flex-direction: column;
@@ -67,6 +63,7 @@ a:active {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #1A1B21;
   padding-bottom: 10px;
   width: 317px;
 }
@@ -122,6 +119,7 @@ a:active {
 .about,
 .interests {
   width: 317px;
+  background-color: #1A1B21;
 }
 
 .about--description,
@@ -185,6 +183,7 @@ a:active {
 @media (prefers-color-scheme: light) {
   .info--container {
     color: #2B283A;
+    background-color: #F5F5F5;
   }
 
   .info--title {
@@ -199,13 +198,14 @@ a:active {
     background-color: #297FE5;
   }
 
+  .about,
+  .interests {
+    background-color: #F5F5F5;
+  }
+
   .about--title,
   .interests--title {
     color: #2B283A
-  }
-
-  .card--body {
-    background-color: #F5F5F5;
   }
 
   .about--description,

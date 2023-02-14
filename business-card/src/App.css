@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-icons:hover {
+  filter: invert(1);
+}
+
+.info--profile-pic {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 95vh;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info--name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 20px 0px 0px 0px;
+}
+
+.info--title {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  color: #F3BF99;
+  margin: 6px 0px 0px 0px;
+}
+
+.info--location {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin: 9px 0px 0px 0px;
+}
+
+.info--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1A1B21;
+  padding-bottom: 10px;
+  width: 317px;
+}
+
+.info--social-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 17px 0px 0px 0px;
+  width: 100%;
+}
+
+.info--social-buttons--email,
+.info--social-buttons--linkedin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 115px;
+  height: 34px;
+  justify-content: center;
+  border-radius: 6px;
+  border: 0px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.info--social-buttons--email {
+  margin-right: 17px;
+  background-color: #FFF;
+  color: #374151;
+}
+
+.info--social-buttons--linkedin {
+  background-color: #5093E2;
+  color: #fff;
+}
+
+.info--social-buttons--email:hover {
+  background-color: #F3BF99;
+  color: #fff;
+}
+
+.info--social-buttons--linkedin:hover {
+  background-color: #0068de;
+  color: #000;
+}
+
+.info--social-buttons--email>p,
+.info--social-buttons--linkedin>p {
+  margin: 9px 0px 9px 8px;
+}
+
+.about,
+.interests {
+  width: 317px;
+  background-color: #1A1B21;
+}
+
+.about--description,
+.interests--description {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  color: #DCDCDC;
+  padding: 0px 34px 0px 34px;
+  margin: 5px 0px 0px 0px;
+}
+
+.interests--description {
+  padding: 0px 34px 38px 34px;
+}
+
+.about--title,
+.interests--title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+  padding: 15px 34px 0px 34px;
+  margin: 0;
+}
+
+.interests--title {
+  padding: 13px 34px 0px 34px;
+}
+
+.app-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: #918E9B;
+  background-color: #161619;
+  width: 317px;
+  font-size: 25px;
+  padding: 20px 0px 20px 0px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 10px;
+  color: #918E9B;
+  background-color: #000;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 0px 0px 0px;
+}
+
+.footer>p {
+  margin: 0;
+}
+
+@media (prefers-color-scheme: light) {
+  .info--container {
+    color: #2B283A;
+    background-color: #F5F5F5;
+  }
+
+  .info--title {
+    color: #F47D27;
+  }
+
+  .info--social-buttons--email {
+    border: 1px solid #D1D5DB;
+  }
+
+  .info--social-buttons--linkedin {
+    background-color: #297FE5;
+  }
+
+  .about,
+  .interests {
+    background-color: #F5F5F5;
+  }
+
+  .about--title,
+  .interests--title {
+    color: #2B283A
+  }
+
+  .about--description,
+  .interests--description {
+    color: #4A4E74;
+  }
+
+  .app-bar {
+    background-color: #D5D4D8;
+    color: #918E9B;
+  }
+
+  .info--social-buttons--email:hover {
+    background-color: #374151;
+    color: #fff;
+  }
+
+  .info--social-buttons--linkedin:hover {
+    color: #fff;
+  }
+}
